@@ -1,0 +1,166 @@
+{
+  "model_name": "unet_water_segmentation",
+  "version": "1.0.0",
+  "architecture": "U-Net (base 16, BatchNorm, 5 input bands B,G,R,NIR,SWIR1)",
+  "params": 483025,
+  "epochs": 12,
+  "patch": 256,
+  "batch": 8,
+  "lr": 0.0002,
+  "loss": "weighted BCE + Dice",
+  "test_patch_metrics": {
+    "iou": 0.5691559466954245,
+    "dice": 0.7254294232438052,
+    "precision": 0.6227565690994417,
+    "recall": 0.8686408086861935,
+    "f1": 0.7254294232438051
+  },
+  "scene_metrics": [
+    {
+      "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "iou": 0.9125898358178958,
+      "dice": 0.9542974829673767,
+      "precision": 0.9552822709083557,
+      "recall": 0.9533147215843201,
+      "f1": 0.9542974829673767,
+      "water_frac_true": 0.3500000536441803,
+      "water_frac_pred": 0.34927916526794434
+    },
+    {
+      "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "iou": 0.004687808872949084,
+      "dice": 0.009331871755421162,
+      "precision": 0.004958906210958958,
+      "recall": 0.07897710055112839,
+      "f1": 0.009331871755421162,
+      "water_frac_true": 0.008639114908874035,
+      "water_frac_pred": 0.1375892609357834
+    },
+    {
+      "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "iou": 0.21371041673863422,
+      "dice": 0.3521604835987091,
+      "precision": 0.24566853046417236,
+      "recall": 0.6216185092926025,
+      "f1": 0.3521604835987091,
+      "water_frac_true": 0.05832751840353012,
+      "water_frac_pred": 0.14758692681789398
+    },
+    {
+      "scene": "EMSR438_AOI06_DEL_PRODUCT",
+      "iou": 0.40807479813004677,
+      "dice": 0.579620897769928,
+      "precision": 0.4181930422782898,
+      "recall": 0.9440277814865112,
+      "f1": 0.5796209573745728,
+      "water_frac_true": 0.25671571493148804,
+      "water_frac_pred": 0.5795093774795532
+    }
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.706762860616048,
+      "train_iou": 0.2977516454160764,
+      "val_loss": 2.0617388168970745,
+      "val_iou": 0.32959476920887926,
+      "val_dice": 0.49578228922334144
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.5621869860755073,
+      "train_iou": 0.37618886520787326,
+      "val_loss": 1.8865062952041627,
+      "val_iou": 0.230869814757821,
+      "val_dice": 0.37513279144512235
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5463831774393717,
+      "train_iou": 0.3816979221771072,
+      "val_loss": 1.970315702756246,
+      "val_iou": 0.3279883335559754,
+      "val_dice": 0.4939626731173396
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.512099199824863,
+      "train_iou": 0.3981908532596106,
+      "val_loss": 1.9867029984792073,
+      "val_iou": 0.2268792719329627,
+      "val_dice": 0.36984775458063085
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.475814954439799,
+      "train_iou": 0.3964888906400414,
+      "val_loss": 1.9020899613698323,
+      "val_iou": 0.33955760067196683,
+      "val_dice": 0.5069697644978214
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.4617214573754205,
+      "train_iou": 0.39403380715207936,
+      "val_loss": 1.8370113611221313,
+      "val_iou": 0.347781893063717,
+      "val_dice": 0.5160803759919268
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.4425996324751111,
+      "train_iou": 0.3983763213933024,
+      "val_loss": 1.9005987803141275,
+      "val_iou": 0.3023682950139675,
+      "val_dice": 0.46433608092513445
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.438523571226332,
+      "train_iou": 0.402692351890978,
+      "val_loss": 1.9205897410710653,
+      "val_iou": 0.3612113745180923,
+      "val_dice": 0.5307204763051168
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.4137082682715523,
+      "train_iou": 0.41617215135856067,
+      "val_loss": 1.9184194644292196,
+      "val_iou": 0.39657740498673816,
+      "val_dice": 0.5679275685983249
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.3848521243201362,
+      "train_iou": 0.416716005761059,
+      "val_loss": 1.8905321121215821,
+      "val_iou": 0.3741809959977079,
+      "val_dice": 0.5445876446952873
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.3820036154323154,
+      "train_iou": 0.4132718687318827,
+      "val_loss": 1.84004758199056,
+      "val_iou": 0.37601347179647926,
+      "val_dice": 0.5465258582178968
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.3805096647474502,
+      "train_iou": 0.41619998580334633,
+      "val_loss": 1.9226773977279663,
+      "val_iou": 0.3137167455670693,
+      "val_dice": 0.4776018066689904
+    }
+  ],
+  "data_provenance": {
+    "source": "isp-uv-es/WorldFloodsv2 (HuggingFace, CC-BY-NC-4.0)",
+    "paper": "Global flood extent segmentation in optical satellite images, Scientific Reports 13, 20316 (2023), DOI 10.1038/s41598-023-47595-7",
+    "scenes": "15 train / 4 val / 4 test (different Copernicus EMS activations, event-level split)",
+    "mask_definition": "Copernicus EMS flood/water polygons rasterized to S2 grid (water incl. permanent water)",
+    "note": "Subset of full dataset (475 train scenes) due to CPU-only compute"
+  },
+  "artifact_path": "/home/z/my-project/ml/models/unet_worldfloods.pt"
+}

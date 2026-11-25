@@ -1,0 +1,1742 @@
+[
+  {
+    "cell_id": "cell-2054",
+    "lat": -8.724,
+    "lon": -57.61,
+    "tile": "S09W060",
+    "risk_p": 0.9363,
+    "risk_tier": "high",
+    "early_flood_months": 27,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.882,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.61,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.812,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2269",
+    "lat": -7.082,
+    "lon": -57.836,
+    "tile": "S09W060",
+    "risk_p": 0.9348,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 692.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.836,
+        "training_median": 79.288
+      },
+      {
+        "feature": "lat",
+        "what_it_means": "latitude",
+        "value": -7.082,
+        "training_median": 16.62
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2138",
+    "lat": -7.883,
+    "lon": -58.382,
+    "tile": "S09W060",
+    "risk_p": 0.9302,
+    "risk_tier": "high",
+    "early_flood_months": 16,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.618,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 26.194,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.382,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2137",
+    "lat": -7.926,
+    "lon": -57.838,
+    "tile": "S09W060",
+    "risk_p": 0.9301,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 21.018,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 36.469,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 47.13,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2140",
+    "lat": -7.887,
+    "lon": -57.837,
+    "tile": "S09W060",
+    "risk_p": 0.9298,
+    "risk_tier": "high",
+    "early_flood_months": 13,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 11.601,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.837,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 21.801,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2069",
+    "lat": -8.632,
+    "lon": -57.629,
+    "tile": "S09W060",
+    "risk_p": 0.9281,
+    "risk_tier": "high",
+    "early_flood_months": 19,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 11.63,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.629,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.84,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2084",
+    "lat": -8.473,
+    "lon": -57.658,
+    "tile": "S09W060",
+    "risk_p": 0.9273,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 8.858,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.658,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 16.417,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2143",
+    "lat": -7.827,
+    "lon": -58.385,
+    "tile": "S09W060",
+    "risk_p": 0.925,
+    "risk_tier": "high",
+    "early_flood_months": 16,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.996,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 29.498,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.385,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2122",
+    "lat": -8.122,
+    "lon": -57.721,
+    "tile": "S09W060",
+    "risk_p": 0.9242,
+    "risk_tier": "high",
+    "early_flood_months": 18,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 7.525,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.721,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 17.819,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2062",
+    "lat": -8.677,
+    "lon": -57.614,
+    "tile": "S09W060",
+    "risk_p": 0.9237,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 14.338,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.614,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.407,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2055",
+    "lat": -8.72,
+    "lon": -57.596,
+    "tile": "S09W060",
+    "risk_p": 0.9174,
+    "risk_tier": "high",
+    "early_flood_months": 19,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 8.728,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.596,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 16.666,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2027",
+    "lat": -8.862,
+    "lon": -59.445,
+    "tile": "S09W060",
+    "risk_p": 0.9164,
+    "risk_tier": "high",
+    "early_flood_months": 18,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.445,
+        "training_median": 79.288
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 424.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 19.899,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2035",
+    "lat": -8.829,
+    "lon": -59.432,
+    "tile": "S09W060",
+    "risk_p": 0.9159,
+    "risk_tier": "high",
+    "early_flood_months": 20,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.432,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.226,
+        "training_median": 2.192
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 427.0,
+        "training_median": 44.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2019",
+    "lat": -8.916,
+    "lon": -59.47,
+    "tile": "S09W060",
+    "risk_p": 0.9124,
+    "risk_tier": "high",
+    "early_flood_months": 19,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 966.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 7.526,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.47,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2114",
+    "lat": -8.224,
+    "lon": -57.648,
+    "tile": "S09W060",
+    "risk_p": 0.9114,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.257,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.648,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.845,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2020",
+    "lat": -8.933,
+    "lon": -58.564,
+    "tile": "S09W060",
+    "risk_p": 0.9102,
+    "risk_tier": "high",
+    "early_flood_months": 15,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 16.12,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 28.294,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.564,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2107",
+    "lat": -8.269,
+    "lon": -57.667,
+    "tile": "S09W060",
+    "risk_p": 0.9088,
+    "risk_tier": "high",
+    "early_flood_months": 25,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.043,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.667,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.173,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2090",
+    "lat": -8.408,
+    "lon": -57.686,
+    "tile": "S09W060",
+    "risk_p": 0.9087,
+    "risk_tier": "high",
+    "early_flood_months": 21,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 10.789,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.686,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 16.502,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2078",
+    "lat": -8.532,
+    "lon": -57.641,
+    "tile": "S09W060",
+    "risk_p": 0.908,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.53,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.641,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 21.959,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2073",
+    "lat": -8.575,
+    "lon": -57.661,
+    "tile": "S09W060",
+    "risk_p": 0.9072,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.824,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.661,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 21.193,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2159",
+    "lat": -7.717,
+    "lon": -57.892,
+    "tile": "S09W060",
+    "risk_p": 0.9058,
+    "risk_tier": "high",
+    "early_flood_months": 9,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.892,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 7.101,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 12.663,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2064",
+    "lat": -8.627,
+    "lon": -59.468,
+    "tile": "S09W060",
+    "risk_p": 0.9044,
+    "risk_tier": "high",
+    "early_flood_months": 19,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.468,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.148,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 5.519,
+        "training_median": 0.693
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2097",
+    "lat": -8.374,
+    "lon": -57.672,
+    "tile": "S09W060",
+    "risk_p": 0.903,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 10.441,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.672,
+        "training_median": 79.288
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 374.0,
+        "training_median": 44.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2046",
+    "lat": -8.781,
+    "lon": -57.428,
+    "tile": "S09W060",
+    "risk_p": 0.9029,
+    "risk_tier": "high",
+    "early_flood_months": 15,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.893,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 28.726,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.428,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2026",
+    "lat": -8.888,
+    "lon": -59.462,
+    "tile": "S09W060",
+    "risk_p": 0.9026,
+    "risk_tier": "high",
+    "early_flood_months": 22,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 715.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.462,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 5.099,
+        "training_median": 0.693
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2219",
+    "lat": -7.258,
+    "lon": -58.135,
+    "tile": "S09W060",
+    "risk_p": 0.9012,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.135,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 13.497,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 18.77,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2218",
+    "lat": -7.269,
+    "lon": -58.173,
+    "tile": "S09W060",
+    "risk_p": 0.8997,
+    "risk_tier": "high",
+    "early_flood_months": 16,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 14.697,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.173,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 43.38,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2089",
+    "lat": -8.423,
+    "lon": -58.379,
+    "tile": "S09W060",
+    "risk_p": 0.898,
+    "risk_tier": "high",
+    "early_flood_months": 12,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.379,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 5.057,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 16.605,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2014",
+    "lat": -8.984,
+    "lon": -59.435,
+    "tile": "S09W060",
+    "risk_p": 0.8973,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 11.244,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.435,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.383,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2077",
+    "lat": -8.525,
+    "lon": -57.664,
+    "tile": "S09W060",
+    "risk_p": 0.8965,
+    "risk_tier": "high",
+    "early_flood_months": 20,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.571,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.664,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.249,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2153",
+    "lat": -7.76,
+    "lon": -58.293,
+    "tile": "S09W060",
+    "risk_p": 0.8935,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.547,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.293,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 19.641,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2157",
+    "lat": -7.731,
+    "lon": -58.292,
+    "tile": "S09W060",
+    "risk_p": 0.8934,
+    "risk_tier": "high",
+    "early_flood_months": 18,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 10.006,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.292,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 17.606,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2060",
+    "lat": -8.676,
+    "lon": -58.431,
+    "tile": "S09W060",
+    "risk_p": 0.8929,
+    "risk_tier": "high",
+    "early_flood_months": 14,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 8.773,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.431,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.17,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2024",
+    "lat": -8.906,
+    "lon": -57.312,
+    "tile": "S09W060",
+    "risk_p": 0.8929,
+    "risk_tier": "high",
+    "early_flood_months": 12,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 16.431,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 26.878,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.312,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2041",
+    "lat": -8.79,
+    "lon": -58.428,
+    "tile": "S09W060",
+    "risk_p": 0.8926,
+    "risk_tier": "high",
+    "early_flood_months": 10,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.428,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 24.069,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 6.6,
+        "training_median": 0.693
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2113",
+    "lat": -8.242,
+    "lon": -57.656,
+    "tile": "S09W060",
+    "risk_p": 0.8926,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.589,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.656,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.528,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2129",
+    "lat": -8.012,
+    "lon": -57.739,
+    "tile": "S09W060",
+    "risk_p": 0.8899,
+    "risk_tier": "high",
+    "early_flood_months": 9,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.133,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.739,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 19.235,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2212",
+    "lat": -7.307,
+    "lon": -58.16,
+    "tile": "S09W060",
+    "risk_p": 0.8883,
+    "risk_tier": "high",
+    "early_flood_months": 15,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.16,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 31.68,
+        "training_median": 3.28
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 315.0,
+        "training_median": 44.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2118",
+    "lat": -8.164,
+    "lon": -57.672,
+    "tile": "S09W060",
+    "risk_p": 0.8868,
+    "risk_tier": "high",
+    "early_flood_months": 16,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 11.268,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.672,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 20.259,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2383",
+    "lat": -6.23,
+    "lon": -57.726,
+    "tile": "S09W060",
+    "risk_p": 0.8865,
+    "risk_tier": "high",
+    "early_flood_months": 23,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 7.749,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.726,
+        "training_median": 79.288
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 313.0,
+        "training_median": 44.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2351",
+    "lat": -6.418,
+    "lon": -58.185,
+    "tile": "S09W060",
+    "risk_p": 0.8839,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 9.498,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.185,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 16.634,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2110",
+    "lat": -8.225,
+    "lon": -58.326,
+    "tile": "S09W060",
+    "risk_p": 0.8837,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.896,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 24.927,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.326,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2185",
+    "lat": -7.525,
+    "lon": -58.24,
+    "tile": "S09W060",
+    "risk_p": 0.8837,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.24,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 3.39,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 8.503,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2165",
+    "lat": -7.68,
+    "lon": -58.263,
+    "tile": "S09W060",
+    "risk_p": 0.8837,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 12.482,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.263,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 23.085,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2102",
+    "lat": -8.322,
+    "lon": -57.682,
+    "tile": "S09W060",
+    "risk_p": 0.8823,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 16.078,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.682,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.011,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2152",
+    "lat": -7.783,
+    "lon": -58.32,
+    "tile": "S09W060",
+    "risk_p": 0.8821,
+    "risk_tier": "high",
+    "early_flood_months": 13,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.812,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.32,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 21.913,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2038",
+    "lat": -8.831,
+    "lon": -57.42,
+    "tile": "S09W060",
+    "risk_p": 0.8775,
+    "risk_tier": "high",
+    "early_flood_months": 14,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 13.752,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 32.003,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.42,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2132",
+    "lat": -7.971,
+    "lon": -57.831,
+    "tile": "S09W060",
+    "risk_p": 0.877,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 14.519,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 33.014,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 48.35,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2305",
+    "lat": -6.884,
+    "lon": -58.455,
+    "tile": "S09W060",
+    "risk_p": 0.8757,
+    "risk_tier": "high",
+    "early_flood_months": 13,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 21.44,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 28.874,
+        "training_median": 2.192
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -58.455,
+        "training_median": 79.288
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2161",
+    "lat": -7.704,
+    "lon": -57.345,
+    "tile": "S09W060",
+    "risk_p": 0.8745,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.345,
+        "training_median": 79.288
+      },
+      {
+        "feature": "soil_moisture_std",
+        "what_it_means": "soil moisture variability",
+        "value": 19.85,
+        "training_median": 4.063
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 3.449,
+        "training_median": 0.693
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2217",
+    "lat": -7.276,
+    "lon": -59.585,
+    "tile": "S09W060",
+    "risk_p": 0.8741,
+    "risk_tier": "high",
+    "early_flood_months": 9,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 8.478,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.585,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 19.262,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2081",
+    "lat": -8.462,
+    "lon": -59.587,
+    "tile": "S09W060",
+    "risk_p": 0.8709,
+    "risk_tier": "high",
+    "early_flood_months": 9,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.587,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 32.78,
+        "training_median": 3.28
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 13.999,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2404",
+    "lat": -6.078,
+    "lon": -57.643,
+    "tile": "S09W060",
+    "risk_p": 0.8696,
+    "risk_tier": "high",
+    "early_flood_months": 20,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 14.448,
+        "training_median": 0.693
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 30.256,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 49.59,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-1756",
+    "lat": 35.73,
+    "lon": -89.98,
+    "tile": "N33W090",
+    "risk_p": 0.8695,
+    "risk_tier": "high",
+    "early_flood_months": 28,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 793.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -89.98,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_1_max",
+        "what_it_means": "max terrain metric in cell",
+        "value": 34.66,
+        "training_median": 3.28
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-1887",
+    "lat": 35.876,
+    "lon": -89.977,
+    "tile": "N33W090",
+    "risk_p": 0.8678,
+    "risk_tier": "high",
+    "early_flood_months": 26,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 899.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -89.977,
+        "training_median": 79.288
+      },
+      {
+        "feature": "soil_moisture_std",
+        "what_it_means": "soil moisture variability",
+        "value": 12.688,
+        "training_median": 4.063
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2377",
+    "lat": -6.282,
+    "lon": -57.769,
+    "tile": "S09W060",
+    "risk_p": 0.8672,
+    "risk_tier": "high",
+    "early_flood_months": 19,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 8.782,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.769,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 15.081,
+        "training_median": 2.192
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-1927",
+    "lat": 35.924,
+    "lon": -89.983,
+    "tile": "N33W090",
+    "risk_p": 0.8667,
+    "risk_tier": "high",
+    "early_flood_months": 29,
+    "top_drivers": [
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 960.0,
+        "training_median": 44.0
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -89.983,
+        "training_median": 79.288
+      },
+      {
+        "feature": "early_flood_months",
+        "what_it_means": "flood months recorded 2014\u20132019",
+        "value": 29.0,
+        "training_median": 8.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2075",
+    "lat": -8.524,
+    "lon": -59.515,
+    "tile": "S09W060",
+    "risk_p": 0.8663,
+    "risk_tier": "high",
+    "early_flood_months": 11,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -59.515,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 21.42,
+        "training_median": 2.192
+      },
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 3.597,
+        "training_median": 0.693
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-630",
+    "lat": 34.217,
+    "lon": -89.678,
+    "tile": "N33W090",
+    "risk_p": 0.8662,
+    "risk_tier": "high",
+    "early_flood_months": 17,
+    "top_drivers": [
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -89.678,
+        "training_median": 79.288
+      },
+      {
+        "feature": "soil_moisture_std",
+        "what_it_means": "soil moisture variability",
+        "value": 23.184,
+        "training_median": 4.063
+      },
+      {
+        "feature": "early_n_detections",
+        "what_it_means": "number of past flood detections",
+        "value": 378.0,
+        "training_median": 44.0
+      }
+    ]
+  },
+  {
+    "cell_id": "cell-2127",
+    "lat": -8.009,
+    "lon": -57.824,
+    "tile": "S09W060",
+    "risk_p": 0.8647,
+    "risk_tier": "high",
+    "early_flood_months": 14,
+    "top_drivers": [
+      {
+        "feature": "dem_metric_1",
+        "what_it_means": "terrain metric 1 (elevation proxy)",
+        "value": 9.208,
+        "training_median": 0.693
+      },
+      {
+        "feature": "lon",
+        "what_it_means": "longitude",
+        "value": -57.824,
+        "training_median": 79.288
+      },
+      {
+        "feature": "dem_metric_2",
+        "what_it_means": "terrain metric 2 (slope proxy)",
+        "value": 22.3,
+        "training_median": 2.192
+      }
+    ]
+  }
+]

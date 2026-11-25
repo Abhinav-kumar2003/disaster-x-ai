@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Large raw sampled dataset (~101.9 MB; regenerate via scripts/sample_ai4g.py)
+ml/data/ai4g_sample.parquet
+
+# OS & Env
+.DS_Store
+.env
+*.log

@@ -1,0 +1,24 @@
+{
+  "n_cells": 20386,
+  "label_balance": {
+    "1": 0.8323,
+    "0": 0.1677
+  },
+  "correlation_with_label": {
+    "early_flood_years": 0.343,
+    "early_flood_months": 0.27,
+    "soil_moisture": 0.165,
+    "soil_moisture_std": 0.155,
+    "lon": 0.12,
+    "dem_metric_1": -0.099,
+    "early_n_detections": 0.099,
+    "dem_metric_2": -0.089,
+    "temp": -0.061,
+    "dem_metric_1_max": 0.049,
+    "soil_moisture_zscore": 0.044,
+    "dominant_month": -0.032,
+    "land_cover": -0.018,
+    "lat": -0.005
+  },
+  "task": "predict >= 2 flood months in 2020-2024 from 2014-2019 evidence"
+}

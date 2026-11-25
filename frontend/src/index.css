@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #07111f;
+  --color-navy-2: #0b1b2b;
+  --color-cyan: #25d9f2;
+  --color-blue: #4285ff;
+  --color-risk-low: #46a758;
+  --color-risk-moderate: #ffc53d;
+  --color-risk-moderate-high: #f76b15;
+  --color-risk-high: #e5484d;
+}
+
+body {
+  background-color: var(--color-navy);
+  color: #dce9f5;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+/* leaflet dark theme adjustments */
+.leaflet-container {
+  background: #0a1622;
+}
+.leaflet-tile {
+  filter: brightness(0.7) saturate(0.8) hue-rotate(180deg) invert(0.92)
+    contrast(1.6);
+}

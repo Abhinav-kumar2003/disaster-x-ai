@@ -1,0 +1,121 @@
+{
+  "model_name": "flood_susceptibility",
+  "version": "1.0.0",
+  "algorithm": "RandomForestClassifier",
+  "selected": "rf",
+  "features": [
+    "dem_metric_1",
+    "dem_metric_2",
+    "dem_metric_1_max",
+    "soil_moisture",
+    "soil_moisture_std",
+    "soil_moisture_zscore",
+    "temp",
+    "land_cover",
+    "dominant_month",
+    "lat",
+    "lon",
+    "flood_years",
+    "n_detections"
+  ],
+  "n_train": 22727,
+  "n_val": 2486,
+  "n_test": 3566,
+  "class_balance_train": 0.7989175870110441,
+  "results": {
+    "logreg": {
+      "val": {
+        "roc_auc": 0.994505130468421,
+        "pr_auc": 0.9973492486764728
+      },
+      "test": {
+        "roc_auc": 0.9923782509913495,
+        "pr_auc": 0.996464952891888,
+        "precision": 0.9982190560997328,
+        "recall": 0.9459915611814346,
+        "f1": 0.9714038128249567,
+        "brier": 0.032157071184324496,
+        "confusion_matrix": [
+          [
+            1192,
+            4
+          ],
+          [
+            128,
+            2242
+          ]
+        ]
+      }
+    },
+    "rf": {
+      "val": {
+        "roc_auc": 0.9960617608232117,
+        "pr_auc": 0.9980209885740008
+      },
+      "test": {
+        "roc_auc": 0.9951836642535596,
+        "pr_auc": 0.9976980767094192,
+        "precision": 0.972457627118644,
+        "recall": 0.9683544303797469,
+        "f1": 0.9704016913319239,
+        "brier": 0.02669460300385399,
+        "confusion_matrix": [
+          [
+            1131,
+            65
+          ],
+          [
+            75,
+            2295
+          ]
+        ]
+      }
+    },
+    "xgb": {
+      "val": {
+        "roc_auc": 0.9956848924215256,
+        "pr_auc": 0.9978499628163396
+      },
+      "test": {
+        "roc_auc": 0.9946798752522472,
+        "pr_auc": 0.997467795716374,
+        "precision": 0.9484662576687116,
+        "recall": 0.9784810126582278,
+        "f1": 0.9632398753894081,
+        "brier": 0.035193626196572736,
+        "confusion_matrix": [
+          [
+            1070,
+            126
+          ],
+          [
+            51,
+            2319
+          ]
+        ]
+      }
+    }
+  },
+  "shap_importance": {
+    "flood_years": 0.2778,
+    "n_detections": 0.1147,
+    "soil_moisture_std": 0.0943,
+    "dem_metric_1_max": 0.0163,
+    "lon": 0.0127,
+    "dem_metric_2": 0.0115,
+    "land_cover": 0.0098,
+    "soil_moisture": 0.0085,
+    "dem_metric_1": 0.0074,
+    "lat": 0.0059,
+    "soil_moisture_zscore": 0.0053,
+    "temp": 0.0036,
+    "dominant_month": 0.0019
+  },
+  "data_provenance": {
+    "source": "ai-for-good-lab/ai4g-flood-dataset (HuggingFace, MIT license)",
+    "paper": "Mapping global floods with 10 years of satellite radar data, Nature Communications 2025, DOI 10.1038/s41467-025-60973-1",
+    "label_definition": "grid cell (0.05deg) with >= 3 distinct Sentinel-1 flood detection months 2014-2024",
+    "split": "geographic leave-tile-out"
+  },
+  "artifact_path": "/home/z/my-project/ml/models/flood_susceptibility_rf.joblib"
+}

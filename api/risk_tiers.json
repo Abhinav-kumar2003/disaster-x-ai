@@ -1,0 +1,32 @@
+{
+  "task": "long-term flood susceptibility (>=2 distinct S1 flood months in 2020-2024, from 2014-2019 evidence)",
+  "test_auc": 0.829,
+  "test_cells": 2416,
+  "high_risk_cells": 244,
+  "risk_tiers": {
+    "calibration_tile": "N09E006",
+    "method": "quantiles of validation-tile predicted probability",
+    "thresholds": {
+      "high": 0.8277995521709122,
+      "moderate-high": 0.6540626081594358,
+      "moderate": 0.49679095402940626
+    },
+    "validation_coverage": {
+      "high": {
+        "share_of_cells": 0.1,
+        "observed_recurrence_rate": 1.0,
+        "lift_over_base": 1.22
+      },
+      "moderate-high": {
+        "share_of_cells": 0.2503,
+        "observed_recurrence_rate": 0.9976,
+        "lift_over_base": 1.22
+      },
+      "moderate": {
+        "share_of_cells": 0.5,
+        "observed_recurrence_rate": 0.9697,
+        "lift_over_base": 1.19
+      }
+    }
+  }
+}

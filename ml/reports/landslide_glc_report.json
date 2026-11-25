@@ -1,0 +1,45 @@
+{
+  "dataset": "NASA Global Landslide Catalog (via WPRDC CKAN mirror)",
+  "source_url": "https://data.wprdc.org/dataset/landslides",
+  "events": 11337,
+  "countries": 151,
+  "date_range": [
+    "1988-11-07",
+    "2018-06-05"
+  ],
+  "total_fatalities": 22468,
+  "task": "predict fatality (fatalities>0) from pre-event features (country, trigger, category, setting, month, location); temporal split train<=2014 / val 2015-2016 / test>=2017",
+  "n_train": 7286,
+  "n_val": 2542,
+  "n_test": 1509,
+  "fatal_rate_train": 0.242,
+  "fatal_rate_test": 0.152,
+  "models": {
+    "LogisticRegression": {
+      "roc_auc": 0.886,
+      "pr_auc": 0.575,
+      "f1": 0.495,
+      "brier": 0.094,
+      "recall_fatal": 0.459
+    },
+    "RandomForest": {
+      "roc_auc": 0.873,
+      "pr_auc": 0.587,
+      "f1": 0.565,
+      "brier": 0.243,
+      "recall_fatal": 0.734
+    },
+    "GradientBoosting": {
+      "roc_auc": 0.881,
+      "pr_auc": 0.579,
+      "f1": 0.437,
+      "brier": 0.09,
+      "recall_fatal": 0.341
+    }
+  },
+  "selected": "LogisticRegression",
+  "honest_limitations": [
+    "fatal outcome depends on exposure and reporting, not only on the physical event; catalog is media-report based with strong reporting bias toward fatal events in later years",
+    "no rainfall/terrain covariates at event location are included (only country/trigger/setting/month), so this is an event-outcome screening model, not a hazard model"
+  ]
+}
